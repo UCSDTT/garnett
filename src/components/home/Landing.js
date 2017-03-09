@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
+import * as BS from 'react-bootstrap';
+
 
 class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        <p>This is the Landing Module</p>
+        <BS.PageHeader className="title">This is the Landing Module</BS.PageHeader>
       </div>
     );
   }

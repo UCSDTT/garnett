@@ -14,5 +14,7 @@ build
 .env
 npm-debug.log
 
-#intellij
-.idea
+#IntelliJ
+*.iml
+.idea/*
+.project

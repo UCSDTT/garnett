@@ -18,6 +18,18 @@
   font-size: large;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  position: relative;
+  left: 0px;
+  width: 300px;
+  padding: 10px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
