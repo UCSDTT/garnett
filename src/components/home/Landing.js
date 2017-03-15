@@ -7,7 +7,7 @@ class Landing extends Component {
     return (
       <div className="landing">
         <BS.PageHeader className="title">WHO WE ARE</BS.PageHeader>
-	      <BS.Image className="picture" src={require('./BR.jpg')} thumbnail/>     
+	      <BS.Image className="picture" src={require('../../../public/images/BR.jpg')} thumbnail/>     
       </div>
     );
   }

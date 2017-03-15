@@ -4,7 +4,7 @@ import {About, Landing, MemberList, Photos, Recruitment} from '../components/hom
 export default class Home extends Component {
   render() {
     return (
-      <div className="homepage">
+      <div className="homepage container-fluid">
         <Landing/>
         <About/>
         <MemberList/>
