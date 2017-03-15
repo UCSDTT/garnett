@@ -23,11 +23,9 @@ body {
   padding: 0;
 }
 
-.title {
-  position: relative;
-  left: 0px;
-  width: 300px;
-  padding: 10px;
+.picture {
+    width: 100%;
+    height: auto;
 }
 
 @keyframes App-logo-spin {

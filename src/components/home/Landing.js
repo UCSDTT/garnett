@@ -6,7 +6,8 @@ class Landing extends Component {
   render() {
     return (
       <div className="landing">
-        <BS.PageHeader className="title">This is the Landing Module</BS.PageHeader>
+        <BS.PageHeader className="title">WHO WE ARE</BS.PageHeader>
+	      <BS.Image className="picture" src={require('./BR.jpg')} thumbnail/>     
       </div>
     );
   }
