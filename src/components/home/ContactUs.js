@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import * as BS from 'react-bootstrap';
 
-
 class ContactUs extends Component {
   render() {
     return (
