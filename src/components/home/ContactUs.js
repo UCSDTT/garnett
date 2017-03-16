@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import * as BS from 'react-bootstrap';
 
-class Recruitment extends Component {
-
+class ContactUs extends Component {
 
 
   render() {
@@ -36,8 +35,8 @@ class Recruitment extends Component {
     };
 
     return (
-      <div className="recruitment">
-        <BS.PageHeader className="title">Why Rush</BS.PageHeader>
+      <div className="contactus">
+        <BS.PageHeader className="title">Contact Us</BS.PageHeader>
         <BS.Row style={infoStyle}>
           <BS.Col xs={6} style={imageStyle}>
             <BS.Image className="picture" src={require('../../../public/images/WhoWeAre.jpg')} responsive/>
@@ -65,4 +64,4 @@ class Recruitment extends Component {
   }
 }
 
-export {Recruitment};
+//export {ContactUs};
